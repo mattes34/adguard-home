@@ -9,7 +9,7 @@ services:
       - 784:784/udp
       - 853:853/tcp
       - 3000:3000/tcp
-      - 80:80/tcp
+      - 82:82/tcp
       - 444:444/tcp
     volumes:
       - ./workdir:/opt/adguardhome/work
